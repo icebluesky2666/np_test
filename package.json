@@ -1,0 +1,20 @@
+{
+  "name": "exmple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "father test",
+    "start": "father doc dev --storybook",
+    "compile": "father build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@umijs/fabric": "^3.0.0",
+    "father": "^2.30.21"
+  },
+  "dependencies": {
+    "np": "^7.6.2"
+  }
+}
