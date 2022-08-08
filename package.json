@@ -6,15 +6,18 @@
   "scripts": {
     "test": "father test",
     "start": "father doc dev --storybook",
-    "compile": "father build"
+    "compile": "father build",
+    "prepublishOnly": "npm run compile && np --yolo --no-publish",
+    "lint": "eslint .",
+    "coverage": "father test --coverage"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@umijs/fabric": "^3.0.0",
-    "father": "^2.30.21"
+    "father": "^2.30.21",
+    "np": "^7.6.2",
+    "assert": "^1.4.1"
   },
-  "dependencies": {
-    "np": "^7.6.2"
-  }
+  "dependencies": {}
 }
