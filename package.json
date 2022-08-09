@@ -9,7 +9,8 @@
     "compile": "father build",
     "prepublishOnly": "npm run compile && np",
     "lint": "eslint .",
-    "coverage": "father test --coverage"
+    "coverage": "father test --coverage",
+    "np": "np"
   },
   "author": "",
   "license": "ISC",
